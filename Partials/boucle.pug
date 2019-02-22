@@ -1,0 +1,12 @@
+- var movies = [{name: "Inception",author: "C. Nolan"},{name: "Fight Club",author: "D. Fincher"}]
+    h1 Home Page
+    .listMovies
+        each movie in movies
+            li.listMovies__item
+                p(class="listMovies__item--name")= movie.name
+                p(class="listMovies__item--name")= movie.author
+
+
+- var service = [{titre: "Service clé en main", text: "On s'occupe de tout : prise de photo, création de l'annonce, sélection des voyageurs, ménage, remise des clés, etc.", text__isblue: "De nombreuses heures de gestion gagnées
+"}]
+                

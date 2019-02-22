@@ -1,0 +1,21 @@
+.service {
+    &__img {
+
+    }
+
+    &__titre {
+        color: #1e629f;
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    &__text {
+        font-size: 14px;
+        line-height: 28px;
+
+        &--isblue {
+            color: #1e629f;
+            margin-top: 30px;
+        }
+    }
+}
